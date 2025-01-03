@@ -1,5 +1,5 @@
-# Electronic Health Record (EHR) Management System
-
+# MyHealth - An Electronic Health Record (EHR) Management System
+![Logo](code/Logo.png)
 # Project Overview
 
 After our Requirements Gathering and Analysis, we realized that a non-trivial, real-world problem that needs to be addressed is the lack of efficient and secure management of Electronic Health Records. There is a need for a system to be implemented where patients are able to access their records.
@@ -7,6 +7,29 @@ After our Requirements Gathering and Analysis, we realized that a non-trivial, r
 This desktop application was built to solve this problem. It has seperate functionality for Doctors and Patients, which includes a secure login and signup process, management of patient records, along with the plan of having a complete appointment booking system.
 
 The application uses SQLite as the database backend and is designed with a modular and maintainable architecture that ensures low coupling and high cohesion with the implementation of many Design Patterns.
+
+## Program Screenshots
+
+### Login Page
+![Login Page](readme-programscreenshots/ProgramLogin.png)
+
+### Sign Up
+![Sign Up](readme-programscreenshots/ProgramSignup.png)
+
+### Doctor Dashboard
+![Doctor Dashboard](readme-programscreenshots/ProgramDoctorDashboard.png)
+
+### Add Patient
+![Add Patient](readme-programscreenshots/ProgramAddPatient.png)
+
+### Add Record
+![Add Record](readme-programscreenshots/ProgramAddRecord.png)
+
+### Search Patient
+![Search Patient](readme-programscreenshots/ProgramSearchPatient.png)
+
+### Patient Dashboard
+![Patient Dashboard](readme-programscreenshots/ProgramPatientDashboard.png)
 
 
 ## Project Features
