@@ -20,7 +20,7 @@ The application uses SQLite as the database backend and is designed with a modul
 ![Doctor Dashboard](readme-programscreenshots/ProgramDoctorDashboard.png)
 
 ### Add Patient
-![Add Patient](readme-programscreenshots/ProgramAddPatient.png)
+![Add Patient](readme-programscreenshots /ProgramAddPatient.png)
 
 ### Add Record
 ![Add Record](readme-programscreenshots/ProgramAddRecord.png)
