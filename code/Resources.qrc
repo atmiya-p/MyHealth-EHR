@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>Logo.png</file>
+        <file>WelcomeBG.png</file>
+        <file>Patientdashboard.png</file>
+        <file>plainbackground.png</file>
+    </qresource>
+</RCC>

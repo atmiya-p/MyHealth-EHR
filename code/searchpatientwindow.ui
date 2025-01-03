@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchPatientWindow</class>
+ <widget class="QDialog" name="SearchPatientWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>846</width>
+    <height>608</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Sign Up</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>851</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>846</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Resources.qrc">:/new/images/plainbackground.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>370</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(189, 155, 254);
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 5px;
+font-style: bold;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>180</y>
+      <width>351</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Andale Mono</family>
+      <pointsize>21</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;</string>
+    </property>
+    <property name="text">
+     <string>Enter the health card number of the patient you would like to search for:</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(189, 155, 254);
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 5px;
+font-style: bold;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="healthcardTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>300</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    background-color: #FFFFFF; 
+    border: 2px solid #D3D3D3;  
+    border-radius: 10px; 
+    padding: 5px;
+	color: black;</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>150</y>
+      <width>31</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="patientfoundlabel">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>100</y>
+      <width>351</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Andale Mono</family>
+      <pointsize>21</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;</string>
+    </property>
+    <property name="text">
+     <string>Patient Found! What would you like to do?</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewvisithistoryButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>230</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(189, 155, 254);
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 5px;
+font-style: bold;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>View Visit History</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addrecordButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>320</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(189, 155, 254);
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 5px;
+font-style: bold;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>Add Record</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>410</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(189, 155, 254);
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 5px;
+font-style: bold;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>Delete Patient</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="recordsTextEdit">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>110</y>
+      <width>391</width>
+      <height>371</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closeRecordButton">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>130</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(189, 155, 254);
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 5px;
+font-style: bold;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
