@@ -12,7 +12,6 @@ TARGET = MyHealth
 
 SOURCES += \
     RecordBuilder.cpp \
-    sqlite3.c \
     DBDoctor.cpp \
     DBManager.cpp \
     DBPatient.cpp \
@@ -33,7 +32,6 @@ SOURCES += \
 
 HEADERS += \
     RecordBuilder.h \
-    sqlite3.h \
     DBDoctor.h \
     DBManager.h \
     DBPatient.h \
